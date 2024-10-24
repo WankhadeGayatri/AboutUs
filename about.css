@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Contact banner section */
+.contact-banner {
+    position: relative;
+    height: 175px;
+    background-image: url('images/img1.jpg'); /* Replace with the actual image URL or path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.contact-banner .overlay {
+    background-color: rgba(0, 120, 180, 0.7); /* Semi-transparent blue overlay */
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.contact-banner h1 {
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.contact-banner p {
+    font-size: 18px;
+}
+
+.contact-banner a {
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.contact-banner a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-section {
+    background-color: white;
+    padding: 60px 0;
+}
+
+.about-text {
+    max-width: 50%;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #00afc9;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.services-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.services-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.services-list strong {
+    color: #00afc9;
+}
+
+.stats {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.stat {
+    margin-right: 40px;
+}
+
+.stat h3 {
+    font-size: 36px;
+    color: #00afc9;
+}
+
+.stat p {
+    font-size: 16px;
+    color: #666;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons .btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+.start-now {
+    background-color: #ff7e3b;
+    color: white;
+}
+
+.start-now:hover {
+    background-color: #e86a26;
+}
+
+.call-now {
+    border: 2px solid #00afc9;
+    color: #00afc9;
+}
+
+.call-now:hover {
+    background-color: #00afc9;
+    color: white;
+}
+
+/* Right Side Image */
+.about-image {
+    max-width: 45%;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    background: linear-gradient(to right, #f82b7c, #5f3fad);
+}
